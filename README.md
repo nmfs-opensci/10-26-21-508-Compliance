@@ -6,6 +6,8 @@ Discussion of 508 Compliance and R Markdown documents. [Reference material](http
 
 [Google Drive Notes](https://docs.google.com/document/d/16cfqref6zZ5touRYN5VfLN8Caj-i7p7gREo2QkWMARU/edit?usp=sharing) Only accessible to NOAA staff.
 
+[Recording of the session](https://drive.google.com/file/d/1-KQd2sur0l1UxWtvl03smYR9WexdzVXZ/view?usp=sharing) Only accessible to NOAA staff.
+
 Issues discussed were focused on PDF and Word reports not html.
 
 * Compliant palettes

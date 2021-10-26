@@ -42,6 +42,10 @@ Christine: The nmfs color palette in the NMFS toolbox is the official 508 compli
 
 Jordan Watson: Here's the pdf that shows the NMFS colors. I got this from the Comms folks at the AKRO https://drive.google.com/file/d/1CAtChh5z1XucyXLx72yJWz6F-sdU9mP6/view?usp=sharing. This is what Christine put into the nmfs color palette. If that's helpful
 
+Jordan Watson: https://drive.google.com/file/d/1-UuTsuMPHzzD-EzweGeOEU_2zWuseltD/view?usp=sharing. FWIW - a branding guide also given to me by the AKR
+
+Curt Whitmire: The NOAA brand guidance and templates is now available on an internal Google site. https://sites.google.com/noaa.gov/inside-fisheries-comms/communications/products-and-services/brand-guidance-and-templates
+
 ## Help for testing for accessibility
 
 Molly: Has resources to do this
@@ -51,5 +55,11 @@ Sarah Gaichas: I have also used this in the past which has an improve for colorb
 Erin Steiner: I really like this website for testing/understanding colorblind palettes. https://www.color-blindness.com/coblis-color-blindness-simulator/
 
 Sarah Gaichas: https://wave.webaim.org/
+
+## Kelli
+
+Workflow: template
+
+Tables: hard
 
 

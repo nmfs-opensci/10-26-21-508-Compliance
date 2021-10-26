@@ -6,6 +6,13 @@ Discussion of 508 Compliance and R Markdown documents. [Reference material](http
 
 [Google Drive Notes](https://docs.google.com/document/d/16cfqref6zZ5touRYN5VfLN8Caj-i7p7gREo2QkWMARU/edit?usp=sharing) Only accessible to NOAA staff.
 
+Issues discussed were focused on PDF and Word reports not html.
+
+* Compliant palettes
+* alt-text for Figures
+* tables
+* testing your documents for accessibility and text-to-speech compatibility.
+
 
 ## Adding alt-text to figures
 
@@ -19,11 +26,10 @@ Abigail: has some GitHub code to add alt-text
    * Convert to Word then to export to PDF to get the alt-text.
    * https://github.com/atyrell3/AKesp/blob/main/R/functions.R. `render_fig` function here. It just pastes in the figure from an image file, but it could be re-worked to create the figure within R
 
-Kelli: RMarkdown and knit to html: https://www.r-bloggers.com/2021/04/new-in-knitr-improved-accessibility-with-image-alt-text/
+RMarkdown and knit to html now allows alt-text tag: https://www.r-bloggers.com/2021/04/new-in-knitr-improved-accessibility-with-image-alt-text/
 
-Dylan Gomes: For equations: https://rpruim.github.io/s341/S19/from-class/MathinRmd.html
+For equations: https://rpruim.github.io/s341/S19/from-class/MathinRmd.html
 
-Jordan Watson - NOAA Federal9:25 AM
 
 ### How to write alt-text
 
@@ -31,7 +37,7 @@ Jordan Watson - NOAA Federal9:25 AM
  
 Example: *Time series describing the long-term sea surface temperature on the Northeast Shelf. The X-axis shows time in years ranging from 1852 to 2019 and the Y-axis shows temperature in degrees celsius ranging from 10 to 14 degrees. The overall trend is increasing. In the last ten years, the temperature has continued to increase.*
 
-BrailleR package (Jonathan Goodfrey): Will automatically create alternative text for a plot (ggplot).  {ggplot2} works with {braille-r}.
+[BrailleR package](https://github.com/ajrgodfrey/BrailleR) (Jonathan Goodfrey): Will automatically create alternative text for a plot (ggplot).  {ggplot2} works with {braille-r}.
 
 
 ## Palettes

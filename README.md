@@ -56,9 +56,20 @@ Erin Steiner: I really like this website for testing/understanding colorblind pa
 
 Sarah Gaichas: https://wave.webaim.org/
 
+Turn-on screen reader and listen to the pdf document:
+  
+  * Adobe Acrobat Reader has a text reader in it so just open in that
+  * @Voice Aloud app for your phone is nice too.
+
+Braille R package (Jonathan Goodfrey): Will automatically create alternative text for a plot (ggplot).  {ggplot2} works with {braille-r}.
+
+## Themed presentations
+
+Christine Stawitz: Here is the vignette on xaringan themed presentations https://nmfs-general-modeling-tools.github.io/nmfspalette/articles/ThemedPresentations.html
+
 ## Kelli
 
-Workflow: template
+Workflow: template www.github.com/nwfsc-assess/sa4ss
 
 Tables: hard
 

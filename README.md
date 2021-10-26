@@ -63,14 +63,37 @@ Turn-on screen reader and listen to the pdf document:
 
 Braille R package (Jonathan Goodfrey): Will automatically create alternative text for a plot (ggplot).  {ggplot2} works with {braille-r}.
 
+## Tables
+
+Kathryn Doering: https://ardata-fr.github.io/flextable-book/index.html
+
+{flextable} is great exp for Word
+
+Kelli: 508 compliance and tables is tough. Merged columns is a problem.
+
+
 ## Themed presentations
 
 Christine Stawitz: Here is the vignette on xaringan themed presentations https://nmfs-general-modeling-tools.github.io/nmfspalette/articles/ThemedPresentations.html
 
-## Kelli
+Christine Stawitz: The .Rmd template is here: https://github.com/nmfs-general-modeling-tools/nmfspalette/blob/main/vignettes/xaringan_template.Rmd you specify colors directly in the template but could easily pick other colors from the branding guide if these weren't high contrast enough
+
+## R Markdown documents
+
+Kelli:
+
+   * line length is important. Add returns.
+   * using child elements can make Rmd really hard to read.
+
+Curt Whitmire: The styler package for RStudio does check wrapping, indents, etc. according to the tidyverse style guide. Not sure how comprehensive the checks are and how they comply with 508.
+https://github.com/r-lib/styler
+
+## Kelli Workflow
 
 Workflow: template www.github.com/nwfsc-assess/sa4ss
 
-Tables: hard
+## Emily Workflow
+
+R package to Google Doc
 
 

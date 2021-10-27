@@ -28,6 +28,12 @@ Abigail: has some GitHub code to add alt-text
    * Convert to Word then to export to PDF to get the alt-text.
    * https://github.com/atyrell3/AKesp/blob/main/R/functions.R. `render_fig` function here. It just pastes in the figure from an image file, but it could be re-worked to create the figure within R
 
+Andy Beet has a example markdown code that will add the alt-text to figures in Word https://github.com/andybeet/508
+
+Eli added an Rmd with some tests and examples https://github.com/nmfs-openscapes/10-26-21-508-Compliance/blob/main/example-alttext-to-word.Rmd
+
+Basically this is the code `![Figure caption](fig.png "this will be the alt-text")`
+
 RMarkdown and knit to html now allows alt-text tag: https://www.r-bloggers.com/2021/04/new-in-knitr-improved-accessibility-with-image-alt-text/
 
 For equations: https://rpruim.github.io/s341/S19/from-class/MathinRmd.html
@@ -60,10 +66,14 @@ Test colors: http://medialab.github.io/iwanthue/.  https://www.color-blindness.c
 
 https://wave.webaim.org/
 
-Check your text: Turn-on screen reader and listen to the pdf document:
+Check your text by listening to it be read aloud
+
+Word: Go into to Review panel and click "Read Aloud". It'll read the alt-text.
+
+PDFs:
   
-  * Adobe Acrobat Reader has a text reader in it so just open in that
-  * @Voice Aloud app for your phone is nice too.
+  * Adobe Acrobat Reader has a text reader in it so just open your PDF in that and use View: Read Aloud
+  * @Voice Aloud app for your Android phone is nice too.
 
 
 ## Tables
@@ -90,17 +100,18 @@ The styler package for RStudio does check wrapping, indents, etc. according to t
 
 Here are some workflows that different people talked about
 
-1. Build reports in R Markdown to PDF or Word.
+1. Build reports in R Markdown to Word
 2. Change colors for 508 compliance. viridis palette was commonly used nmfs-palette is also 508 compliant.
-3. Post-processing to add alt-text.
+3. Post-processing in Word to add alt-text.
 4. Check output for accessibility (see links).
+5. Save from Word to PDF. **Make sure to use the 'optimize for accessibility' option when you save** otherwise the alt-text won't be captured and the text to speech can get garbled.
 
 Kelli's Workflow for assessment reports to PDF
 
 * Relies on a template from which all reports are derived  www.github.com/nwfsc-assess/sa4ss
 
-## Emily Workflow
+Emily's Workflow
 
-R package to Word. Post-processing of alt-text in Word.
+* R package to Word. Post-processing of alt-text in Word.
 
 
